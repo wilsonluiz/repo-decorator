@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Dominio\RepositorioArquivo.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Infraestrutura\RepositorioArquivo.cs" />
+  </ItemGroup>
+
+</Project>
